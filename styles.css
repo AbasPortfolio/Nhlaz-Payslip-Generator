@@ -248,7 +248,10 @@ textarea {
   .delete-btn {
   cursor: pointer;
   font-size: 18px;
-  color: red;
+  color: transparent;
   padding-left: 8px;
+}
+  .delete-btn:hover{
+  color: red;
 }
 
